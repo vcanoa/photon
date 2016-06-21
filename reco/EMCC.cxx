@@ -3,4 +3,7 @@
 ClassImp(EMCC)
 
 EMCC::EMCC() {
-};
+}
+
+EMCC::~EMCC() {
+}

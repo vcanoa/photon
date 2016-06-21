@@ -26,9 +26,9 @@ class PhotonEvent : public TObject  {
 
  public:
   PhotonEvent();
-  virtual ~PhotonEvent() {};
+  virtual ~PhotonEvent();
   
-  void ClearEvent();
+  void Clear();
   
   void SetRunNumber(int val)    { fRun = val; };
   void SetBBCcharge(float val)  { fBBCcharge = val; };
@@ -68,7 +68,7 @@ class PhotonEvent : public TObject  {
   vector<EMCC>  GetClusters() { return fEMCC; };
   vector<CNTDE> GetPairs()    { return fDE; };
   
-  ClassDef(PhotonEvent,1);
+  ClassDef(PhotonEvent,1)
 };
 
 #endif

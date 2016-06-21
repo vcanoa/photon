@@ -17,7 +17,7 @@ class EMCC : public TObject {
   
  public:
   EMCC();
-  virtual ~EMCC() {  };
+  virtual ~EMCC();
   
   int      GetArm() const { return fArm; };
   int      GetID() const { return fID; };
@@ -40,7 +40,7 @@ class EMCC : public TObject {
   void     SetEmcdz(float val) { fEMCdz = val; };
   void     SetEmcdphi(float val) { fEMCdphi = val; };
   
-  ClassDef(EMCC,1);
+  ClassDef(EMCC,1)
 };
 
 #endif

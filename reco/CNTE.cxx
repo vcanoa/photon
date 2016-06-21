@@ -3,4 +3,7 @@
 ClassImp(CNTE)
 
 CNTE::CNTE() {
-};
+}
+
+CNTE::~CNTE() {
+}

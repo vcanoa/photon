@@ -18,9 +18,12 @@ PhotonEvent::PhotonEvent() {
   fPsi_BBCS   = -999;
   fSvxz       = -999;
   fRun        = -999;
-};
+}
 
-void PhotonEvent::ClearEvent() {
+PhotonEvent::~PhotonEvent() {
+}
+
+void PhotonEvent::Clear() {
   fP.clear();
   fN.clear();
   fDE.clear();

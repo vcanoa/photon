@@ -40,7 +40,7 @@ class CNTE : public TObject {
   
  public:
   CNTE();
-  virtual ~CNTE() {  };
+  virtual ~CNTE();
   
   int   GetDCarm()     const { return fDCarm; };
   int   GetDCside()    const { return fDCside; };
@@ -108,6 +108,6 @@ class CNTE : public TObject {
   void SetYsect(float val)      { fYsect = val; };
   void SetZsect(float val)      { fZsect = val; };
   
-  ClassDef(CNTE,1);
+  ClassDef(CNTE,1)
 };
 #endif

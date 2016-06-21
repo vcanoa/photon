@@ -3,4 +3,7 @@
 ClassImp(CNTDE)
 
 CNTDE::CNTDE() {
-};
+}
+
+CNTDE::~CNTDE() {
+}

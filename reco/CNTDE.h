@@ -15,7 +15,7 @@ class CNTDE {
   
  public:
   CNTDE();
-  virtual ~CNTDE() {  };
+  virtual ~CNTDE();
   
   float GetEphi()   const { return fEphi; }
   float GetPphi()   const { return fPphi; }
@@ -33,7 +33,7 @@ class CNTDE {
   void SetEid(int val)      { fEid = val; }
   void SetPid(int val )     { fPid = val; }
   
-  ClassDef(CNTDE,1);  // A e+e- pair
+  ClassDef(CNTDE,1)
 };
 
 #endif
